@@ -33,6 +33,10 @@ config1 = picam1.create_still_configuration()
 picam0.configure(config0)
 picam1.configure(config1)
 
+# Set lens position for focus control
+picam0.set_controls({"LensPosition": 0.1})  # Focus for RGB camera
+picam1.set_controls({"LensPosition": 0.1})  # Focus for NIR camera
+
 # Start cameras
 picam0.start()
 picam1.start()
