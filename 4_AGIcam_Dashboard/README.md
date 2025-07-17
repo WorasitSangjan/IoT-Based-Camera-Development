@@ -93,11 +93,11 @@ Table format providing:
 
 ## Features
 
-- ✅ **Responsive navigation** with Bootstrap collapse menu
-- ✅ **Real-time dashboards** embedded via iframes
-- ✅ **Direct image access** to historical galleries
-- ✅ **Mobile optimized** for field use
-- ✅ **External link handling** opens in new tabs
+- **Responsive navigation** with Bootstrap collapse menu
+- **Real-time dashboards** embedded via iframes
+- **Direct image access** to historical galleries
+- **Mobile optimized** for field use
+- **External link handling** opens in new tabs
 
 ---
 © 2022 AGIcam - Phenomics Lab|Washington State University
