@@ -13,15 +13,15 @@ The AGIcam Dashboard provides real-time monitoring and historical data access fo
 ## Screenshots
 
 ### Homepage - Field Deployment View
-![AGIcam Homepage](images/homepage-screenshot.png)
+![AGIcam Homepage](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/4_AGIcam_Dashboard/images/homepage-screenshort.png)
 *Real AGIcam sensors deployed across wheat breeding trials showing field layout and installation*
 
 ### Dashboard - Real-time NDVI Monitoring  
-![AGIcam Dashboard](images/dashboard-screenshot.png)
+![AGIcam Dashboard](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/4_AGIcam_Dashboard/images/dashboard-screenshort.png)
 *Grid view of all 18 camera sensors with embedded Grafana dashboards for live NDVI monitoring*
 
 ### Plant Health - Historical Data Access
-![Plant Health Page](images/planthealth-screenshot.png)
+![Plant Health Page](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/4_AGIcam_Dashboard/images/planthealth-screenshort.png)
 *Table interface providing access to historical NDVI image galleries for each camera sensor*
 
 ## Pages
@@ -72,11 +72,11 @@ Table format providing:
 
 ## External Services
 
-- **Grafana Dashboards**: `Link to Grafana on the cloud` - Real-time NDVI data
-- **Image Server**: `Link to image database on the cloud` - Historical photos
+- **Grafana Dashboards**: `Use the link to Grafana on the cloud` - Real-time NDVI data
+- **Image Server**: `Use the link to image database on the cloud` - Historical photos
 - **Bootstrap CDN**: UI framework and responsive components
 
-## 🎯 Camera Layout
+## Camera Layout
 
 **18 Total Sensors:**
 - **Winter Wheat (6)**: AGIcam4, 7, 8, 9, 11, 12
