@@ -1,0 +1,206 @@
+<!--
+  AGI Cam Website - Homepage
+  Author: Nisit Pukrongta, Worasit Sangjan
+  Date: April 2022
+  Description: Main landing page for AGIcam dashboard
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NDVI Agicam Image Gallery</title>
+    
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" 
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+          crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">AGI Cam</a>
+            
+            <button class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarSupportedContent" 
+                    aria-controls="navbarSupportedContent" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboardlists.html">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="planthealth.html">Plant health</a>
+                    </li>
+                </ul>
+                
+                <form class="d-flex">
+                    <input class="form-control me-2" 
+                           type="search" 
+                           placeholder="Search" 
+                           aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Plant Health Table -->
+    <div class="m-4">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Device Name</th>
+                    <th>Location</th>
+                    <th>NDVI Images</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Winter Wheat Cameras -->
+                <tr class="table-primary">
+                    <td>1</td>
+                    <td>AGIcam4_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam4_WW/" target="_blank">AGIcam4_WW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>2</td>
+                    <td>AGIcam7_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam7_WW/" target="_blank">AGIcam7_WW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>3</td>
+                    <td>AGIcam8_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam8_WW/" target="_blank">AGIcam8_WW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>4</td>
+                    <td>AGIcam9_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam9_WW/" target="_blank">AGIcam9_WW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>5</td>
+                    <td>AGIcam11_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam11_WW/" target="_blank">AGIcam11_WW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>6</td>
+                    <td>AGIcam12_WW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam12_WW/" target="_blank">AGIcam12_WW</a></td>
+                </tr>
+                
+                <!-- Spring Wheat Cameras -->
+                <tr class="table-primary">
+                    <td>7</td>
+                    <td>AGIcam13_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam13_SW/" target="_blank">AGIcam13_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>8</td>
+                    <td>AGIcam14_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam14_SW/" target="_blank">AGIcam14_SW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>9</td>
+                    <td>AGIcam15_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam15_SW/" target="_blank">AGIcam15_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>10</td>
+                    <td>AGIcam16_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam16_SW/" target="_blank">AGIcam16_SW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>11</td>
+                    <td>AGIcam17_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam17_SW/" target="_blank">AGIcam17_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>12</td>
+                    <td>AGIcam18_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam18_SW/" target="_blank">AGIcam18_SW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>13</td>
+                    <td>AGIcam19_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam19_SW/" target="_blank">AGIcam19_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>14</td>
+                    <td>AGIcam21_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam21_SW/" target="_blank">AGIcam21_SW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>15</td>
+                    <td>AGIcam22_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam22_SW/" target="_blank">AGIcam22_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>16</td>
+                    <td>AGIcam23_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam23_SW/" target="_blank">AGIcam23_SW</a></td>
+                </tr>
+                <tr class="table-primary">
+                    <td>17</td>
+                    <td>AGIcam24_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam24_SW/" target="_blank">AGIcam24_SW</a></td>
+                </tr>
+                <tr class="table-secondary">
+                    <td>18</td>
+                    <td>AGIcam25_SW</td>
+                    <td>LAT: Long:</td>
+                    <td><a href="http://20.150.150.210/agicamimages/AGIcam25_SW/" target="_blank">AGIcam25_SW</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Footer -->
+    <div class="container my-5">
+        <footer class="bg-light text-center">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright: AGIcam - Phenomics Lab|Washington State University
+            </div>
+        </footer>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxbJ8NT4GN1R8p" 
+            crossorigin="anonymous"></script>
+</body>
+</html>
