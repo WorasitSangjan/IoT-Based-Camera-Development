@@ -2,29 +2,29 @@
 
 **Node-RED data pipeline for transferring IoT sensor data from JSON files to InfluxDB time-series database.**
 
-This repository shares the backend code we developed for our AGIcam project - an automated agricultural monitoring system using IoT cameras and vegetation index analysis.
+This repository shares the backend code we developed for our AGIcam project, an automated agricultural monitoring system that utilizes IoT cameras and vegetation index analysis.
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File | Description | Authors |
 |------|-------------|---------|
 | **`flows.json`** | Complete Node-RED flow for data transfer pipeline | Nisit Pukrongta and Worasit Sangjan |
-| **`data-transform.js`** | JavaScript transformation function example | Nisit Pukrongta and Worasit Sangjan |
+| **`data_transform.js`** | JavaScript transformation function example | Nisit Pukrongta and Worasit Sangjan |
 
 ## What This Code Does
 
 Our system reads vegetation index data from JSON files and transfers it to InfluxDB for analysis and visualization:
 
-![AGIcam Data Pipeline](path/to/your/diagram.png)
+![AGIcam Data Pipeline](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/2_Backend_System/image/flow.png)
 
-The pipeline automatically processes data at scheduled intervals, transforming nested JSON structures into time-series database format suitable for analysis and dashboard visualization.
+The pipeline automatically processes data at scheduled intervals, transforming nested JSON structures into a time-series database format suitable for analysis and dashboard visualization.
 
 ### The Pipeline Flow
 1. **Trigger Scheduled Data Flow** - Initiates processing at defined time intervals
 2. **Read JSON File** - Loads vegetation index data from Raspberry Pi's SD storage
 3. **Parse JSON to Object** - Converts JSON file into JavaScript object (msg.payload)
 4. **Function Node** - Transforms data structure and adds metadata + routing
-5. **Database Node** - Writes VI data and metadata to InfluxDB time-series database
+5. **Database Node** - Writes VI data and metadata to the InfluxDB time-series database
 
 ## What You Can Adapt for Your Project
 
