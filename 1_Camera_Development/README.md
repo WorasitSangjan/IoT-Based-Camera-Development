@@ -1,6 +1,5 @@
-# AGIcam Repository Structure
-
-This repository contains the hardware and codes of AGIcam IoT-based camera system for automated field phenotyping.
+# AGIcam Hardware
+This repository contains the hardware and code for the AGIcam IoT-based camera system, designed for automated field phenotyping.
 
 ## Branch Contents
 
@@ -9,7 +8,7 @@ Hardware design components for the physical camera system:
 
 ## Hardware Components
 
-![AGIcam Hardware Assembly](hardware_assembly.png)
+![AGIcam Hardware Assembly](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/1_Camera_Development/image/camera.png)
 
 The 3D printed enclosure system houses the following components:
 - Raspberry Pi Compute Module 3+ Lite (main processing unit)
