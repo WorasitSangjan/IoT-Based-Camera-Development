@@ -1,4 +1,4 @@
-# 4_Data_Analysis
+# Data Analysis
 
 This folder contains the data analysis components for AGIcam's yield prediction pipeline, implementing both Random Forest and Long Short-Term Memory (LSTM) models for wheat yield prediction using time-series vegetation index data.
 
@@ -6,7 +6,7 @@ This folder contains the data analysis components for AGIcam's yield prediction 
 
 The data analysis pipeline processes time-series vegetation index (VI) data collected by AGIcam sensors to predict grain yield in wheat breeding trials. Two machine learning approaches are implemented:
 
-1. **Random Forest Regression**: Uses Area Under Curve (AUC) features from VI time series
+1. **Random Forest Regression**: Uses Area Under Curve (AUC) features from the VI time series
 2. **Long Short-Term Memory (LSTM)**: Processes sequential VI data to capture temporal dependencies
 
 ## Folder Structure
@@ -43,14 +43,15 @@ The data analysis pipeline processes time-series vegetation index (VI) data coll
 
 ## Model Implementations
 
-![Machine Learning and Deep Learning Workflow](path/to/your/flowchart/image)
+<img src="https://raw.githubusercontent.com/WorasitSangjan/IoT-based-Camera-Development/main/4_Data_Analysis/images/flow.png" alt="Machine Learning and Deep Learning Workflow" width="750">
+
 *Figure: Machine learning and deep learning frameworks for yield prediction using time-series vegetation index (VI) data*
 
 ### Random Forest Regression
 
 **Approach**: 
-- Converts VI time series into Area Under Curve (AUC) features using trapezoidal rule
-- Divides growing season into temporal windows:
+- Converts VI time series into Area Under Curve (AUC) features using the trapezoidal rule
+- Divides the growing season into temporal windows:
   - Initial 7-day window for early-season variability
   - Non-overlapping 3-day intervals thereafter
   - Results in 19 intervals (spring wheat) and 25 intervals (winter wheat)
