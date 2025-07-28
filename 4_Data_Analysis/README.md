@@ -20,6 +20,9 @@ The data analysis pipeline processes time-series vegetation index (VI) data coll
 
 ## Data Requirements
 
+### Dataset Availability
+**Dataset will be published on Zenodo** - Link will be shared soon
+
 ### Input Data Format
 - **Time-series VI data**: JSON format with timestamp metadata
 - **Vegetation Indices**: Seven VIs computed from RGB/NoIR imagery
@@ -40,6 +43,9 @@ The data analysis pipeline processes time-series vegetation index (VI) data coll
 
 ## Model Implementations
 
+![Machine Learning and Deep Learning Workflow](path/to/your/flowchart/image)
+*Figure: Machine learning and deep learning frameworks for yield prediction using time-series vegetation index (VI) data*
+
 ### Random Forest Regression
 
 **Approach**: 
@@ -49,37 +55,43 @@ The data analysis pipeline processes time-series vegetation index (VI) data coll
   - Non-overlapping 3-day intervals thereafter
   - Results in 19 intervals (spring wheat) and 25 intervals (winter wheat)
 
+**Workflow**:
+1. **VI Time Series + Yield Data** → Combined input datasets
+2. **AUC Computation** → Trapezoidal integration across 3-day intervals
+3. **Feature Matrix** → Structured input for model training
+4. **Model Training** → Random Forest with Grid Search + LOOCV optimization
+5. **Evaluation** → RMSE and MAPE performance metrics
+
 **Key Features**:
 - Uses scikit-learn RandomForestRegressor
 - Hyperparameter optimization via grid search with LOOCV
 - Feature importance analysis to identify key VIs and time windows
 - Performance metrics: RMSE and MAPE
 
-**Expected Performance**:
-- **Spring Wheat**: RMSE = 514.18 kg/ha, MAPE = 8.11% (optimal: 2 days before heading)
-- **Winter Wheat**: RMSE = 983.84 kg/ha, MAPE = 9.31% (optimal: 9 days before heading)
-
 ### Long Short-Term Memory (LSTM)
 
 **Approach**:
 - Processes sequential VI data to capture temporal dependencies
-- Two input configurations: univariate (NDVI only) and multivariate (all 7 VIs)
+- Two input configurations: 
+  - **Univariate**: NDVI only
+  - **Multivariate**: All 7 VIs
 - Per-plot evaluation identifying optimal prediction day for each plot
 
+**Workflow**:
+1. **Data Preprocessing** → Interpolation and normalization
+2. **Model Training** → LSTM architectures with temporal sequence processing
+3. **Evaluation** → RMSE, Percent Error, and Optimal Prediction Day identification
+
 **Architectures**:
-1. **Vanilla LSTM**: Single layer, 100 units, batch normalization, dropout (0.2)
-2. **Stacked LSTM**: Two layers, 50 units each, ReLU activation
+- **Vanilla LSTM**: 1 Layer, 100 cells/layer
+- **Stacked LSTM**: 2 Layers, 50 cells/layer
 
 **Implementation Details**:
 - Framework: TensorFlow
+- 80/20 Train-Test Split
 - Optimizer: Adam (learning rate = 0.0005)
 - Loss function: Mean Squared Error (MSE)
-- Data split: 80% training, 20% testing
-- Regularization: L2 regularization, dropout
-
-**Expected Performance**:
-- **Spring Wheat**: RMSE = 221.76 kg/ha, Error = 3.41% (optimal: ~1 week after heading)
-- **Winter Wheat**: RMSE = 210.28 kg/ha, Error = 1.62% (optimal: ~1 week after heading)
+- Regularization: L2 regularization, dropout (0.2)
 
 ## Dependencies
 
