@@ -80,5 +80,9 @@ The pipeline automatically processes data at scheduled intervals, transforming n
 - **InfluxDB 1.x**: Time-series database for sensor data
 - **JavaScript**: Data transformation logic
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/LICENSE) file for details.
+
 ---
 © 2022 AGIcam - Phenomics Lab|Washington State University
