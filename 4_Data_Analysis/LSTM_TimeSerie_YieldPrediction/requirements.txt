@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.21.0
+pandas>=1.3.0
+tensorflow>=2.8.0
+
+# Data processing and analysis
+scipy>=1.7.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Utilities
+colorama>=0.4.4
+
+# Optional: For better performance
+# scikit-learn>=1.0.0  # If you add more ML features later
