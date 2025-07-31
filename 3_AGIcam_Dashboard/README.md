@@ -99,5 +99,9 @@ Table format providing:
 - **Mobile optimized** for field use
 - **External link handling** opens in new tabs
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/LICENSE) file for details.
+
 ---
 © 2022 AGIcam - Phenomics Lab|Washington State University
