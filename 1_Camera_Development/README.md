@@ -54,5 +54,9 @@ pip3 install opencv-python numpy
 - `numpy` - Numerical operations
 - Built-in libraries: `os`, `time`, `datetime`, `json`, `statistics`
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/LICENSE) file for details.
+
 ---
 © 2022 AGIcam - Phenomics Lab|Washington State University
