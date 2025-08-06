@@ -14,15 +14,15 @@ The AGIcam Dashboard provides real-time monitoring and historical data access fo
 
 ### Homepage - Field Deployment View
 ![AGIcam Homepage](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/3_AGIcam_Dashboard/images/homepage-screenshort.png)
-*Real AGIcam sensors deployed across wheat breeding trials showing field layout and installation*
+*Figure 1: Real AGIcam sensors deployed across wheat breeding trials showing field layout and installation*
 
 ### Dashboard - Real-time NDVI Monitoring  
 ![AGIcam Dashboard](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/3_AGIcam_Dashboard/images/dashboard-screenshort.png)
-*Grid view of all 18 camera sensors with embedded Grafana dashboards for live NDVI monitoring*
+*Figure 2: Grid view of all 18 camera sensors with embedded Grafana dashboards for live NDVI monitoring*
 
 ### Plant Health - Historical Data Access
 ![Plant Health Page](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/3_AGIcam_Dashboard/images/planthealth-screenshort.png)
-*Table interface providing access to historical NDVI image galleries for each camera sensor*
+*Figure 3: Table interface providing access to historical NDVI image galleries for each camera sensor*
 
 ## Pages
 
