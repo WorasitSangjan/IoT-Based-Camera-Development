@@ -45,7 +45,7 @@ The data analysis pipeline processes time-series vegetation index (VI) data coll
 
 <img src="https://raw.githubusercontent.com/WorasitSangjan/IoT-based-Camera-Development/main/4_Data_Analysis/images/flow.png" alt="Machine Learning and Deep Learning Workflow" width="750">
 
-*Figure: Machine learning and deep learning frameworks for yield prediction using time-series vegetation index (VI) data*
+*Figure 1: Machine learning and deep learning frameworks for yield prediction using time-series vegetation index (VI) data*
 
 ### Random Forest Regression
 
