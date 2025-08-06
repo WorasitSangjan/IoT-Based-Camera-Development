@@ -10,9 +10,9 @@
 
 AGIcam is an open-source Internet of Things (IoT) camera system designed for automated in-field phenotyping and yield prediction. Developed at Washington State University's Phenomics Lab, this platform enables continuous, high-frequency monitoring essential for capturing rapid phenological transitions and dynamic crop responses in breeding programs.
 
-![AGIcam Field Deployment](path/to/figure1-image.png)
+![AGIcam Field Deployment](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/images/figure1.png)
 
-*AGIcam sensor system deployed in a winter wheat breeding trial during the 2022 growing season*
+*Figure 1: AGIcam sensor system deployed in a winter wheat breeding trial during the 2022 growing season*
 
 ### Key Features
 
@@ -25,9 +25,9 @@ AGIcam is an open-source Internet of Things (IoT) camera system designed for aut
 
 ## System Architecture
 
-![AGIcam System Architecture](path/to/figure3-system-architecture.png)
+![AGIcam System Architecture](https://github.com/WorasitSangjan/IoT-based-Camera-Development/blob/main/images/figure2.png)
 
-*System architecture of the AGIcam platform, illustrating its core components*
+*Figure 2: System architecture of the AGIcam platform, illustrating its core components*
 
 The AGIcam platform consists of four main components:
 
