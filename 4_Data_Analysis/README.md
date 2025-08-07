@@ -1,5 +1,8 @@
 # Data Analysis
 
+![Machin Learning](https://img.shields.io/badge/Machine%20Learning-Random%20R--Forest-orange.svg)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-LSTM-orange.svg)
+
 This folder contains the data analysis components for AGIcam's yield prediction pipeline, implementing both Random Forest and Long Short-Term Memory (LSTM) models for wheat yield prediction using time-series vegetation index data.
 
 ## Overview
