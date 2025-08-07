@@ -1,8 +1,13 @@
 # AGIcam: An Open-Source IoT-Based Camera System for Automated In-Field Phenotyping and Yield Prediction
 
-[![License](https://img.shields.io/badge/License-Open%20Source-green.svg)](LICENSE)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-red.svg)](https://raspberrypi.org)
+![Agriculture](https://img.shields.io/badge/Agriculture-Precision%20Agriculture-green.svg)
+![Research](https://img.shields.io/badge/Research-WSU--Phenomics-navy.svg)
+
+
 
 > **A low-cost, solar-powered IoT platform for high-frequency crop monitoring and yield prediction in wheat breeding trials**
 
