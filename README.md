@@ -25,7 +25,7 @@ AGIcam is an open-source Internet of Things (IoT) camera system designed for aut
 - **Wireless Connectivity**: 4G LTE and Wi-Fi for real-time data transmission
 - **Dual Camera System**: Synchronized RGB and NoIR imaging (3x daily capture-Adjustable depend on User's requirement)
 - **Edge Computing**: On-device vegetation index calculation for 7 VIs
-- **Cloud Integration**: Automated data transfer to InfluxDB with Grafana visualization
+- **Cloud Integration with MING Stack**: Automated data transfer from Node-RED MQTT to InfluxDB with Grafana visualization
 - **Low Cost**: $150-200 per sensor unit
 
 ## System Architecture
@@ -71,7 +71,7 @@ The AGIcam platform consists of four main components:
 - **Backend**: Node-RED, Python 3.7+
 - **Database**: InfluxDB (time-series)
 - **Visualization**: Grafana
-- **Cloud**: Microsoft Azure
+- **Cloud**: Microsoft Azure with Bootstrap framework
 
 
 ## Research Applications
