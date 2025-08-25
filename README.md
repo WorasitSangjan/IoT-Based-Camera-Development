@@ -109,10 +109,6 @@ IoT-based-Camera-Development/
 └── requirements.txt                # Python dependencies
 ```
 
-## License
-
-This project is open source under the [MIT License](LICENSE). See the LICENSE file for details.
-
 ## Acknowledgments
 
 This research was funded by:
@@ -125,6 +121,10 @@ This research was funded by:
 - **Lead Researcher**: Worasit Sangjan - [worasit.sangjan@wsu.edu](mailto:worasit.sangjan@wsu.edu)
 - **Principal Investigator**: Dr. Sindhuja Sankaran - [s.sankaran@wsu.edu](mailto:s.sankaran@wsu.edu)
 - **Institution**: Washington State University, Phenomics Lab
+
+## License
+
+This project is open source under the [MIT License](LICENSE). See the LICENSE file for details.
 
 ---
 © 2022 AGIcam - Phenomics Lab|Washington State University
